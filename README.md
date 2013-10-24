@@ -57,7 +57,7 @@
       curates: 0
     };
 
-    settings.prototype.pupScriptUrl = 'https://raw.github.com/Notturno/Penumbra/master/';
+    settings.prototype.pupScriptUrl = 'https://raw.github.com/Mafufa/Absolut/master/';
 
     settings.prototype.afkTime = 30 * 60 * 1000;
 
@@ -780,9 +780,9 @@
 
     roomHelpCommand.prototype.functionality = function() {
       var msg1, msg2;
-      msg1 = "Welcome to Penumbra! DJ: Create a playlist and use soundcloud or youtube  ";
+      msg1 = "Welcome to Absolut Lithuania! DJ: Create a playlist and use soundcloud or youtube  ";
       msg1 += "If you are new search for your name in the screen (next to your DJ Booth) and then change your name. ";
-      msg1 += "Para Ganhar Pontos clique em Bacana. ";
+      msg1 += "Press Woot for points. ";
       msg2 = "Have fun! ";
       API.sendChat(msg1);
       return setTimeout((function() {
@@ -810,7 +810,7 @@
 
     sourceCommand.prototype.functionality = function() {
       var msg;
-      msg = ' BOT Created by Backus and edited by Notturno for Penumbra ';
+      msg = ' BOT Created by Backus and edited by Notturno for Absolut ';
       return API.sendChat(msg);
     };
 
@@ -886,9 +886,9 @@
 
     downloadCommand.prototype.functionality = function() {
       var msg;
-      msg = "  Follow me! https://twitter.com/PenumbraEDM ";
-      msg += " Facebook https://www.facebook.com/pages/Penumbra-Music/697408320272422?ref=hl ";
-      msg += " Youtube http://www.youtube.com/zanriionradio2 ";
+      msg = "  Follow me! https://www.facebook.com/3dvinas ";
+      msg += " Facebook https://www.facebook.com/the3dvinas?fref=ts ";
+      msg += " Youtube http://www.youtube.com/channel/UCrQ1R15nKw0oGoXfvD-wNsw ";
       return API.sendChat(msg);
     };
 
@@ -1314,7 +1314,7 @@
           });
         }
       } else {
-        return API.sendChat("Tire o espaço entre os nomes e coloque \'para\'");
+        return API.sendChat("Remove the space between the names and place \ 'for \'");
       }
     };
 
