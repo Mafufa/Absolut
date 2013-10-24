@@ -879,7 +879,7 @@
     }
 
     downloadCommand.prototype.init = function() {
-      this.command = '!penumbra';
+      this.command = '!edvis';
       this.parseType = 'exact';
       return this.rankPrivelege = 'featured';
     };
